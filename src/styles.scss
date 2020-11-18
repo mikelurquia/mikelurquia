@@ -6,6 +6,23 @@ body {
   background-color: #ecf0f1;
 }
 
+app-home {
+  display: flex;
+  flex-grow: 1;
+}
+
+#home {
+  //background-color: white;
+}
+
+.card {
+  border-radius: .3rem;
+
+  &.stack-card {
+    min-height: 10rem;
+  }
+}
+
 .card-img-top {
   max-width: 4rem;
   max-height: 4rem;
